@@ -1,3 +1,6 @@
+xiaoyang.liu@gmail.com
+Feb 14, 2025
+
 Excited to have a new laptop and next step is to install Ubuntu along with Windows.
 1. inside windwos, turn off encryption, turn off security, turn of bitlocker
 1.1 download latest iso image
@@ -33,3 +36,25 @@ python3: /usr/bin/python3 /usr/lib/python3 /etc/python3 /usr/share/python3 /usr/
 5.5 source venv_py312/bin/activate #active this venv
 5.6 Pycharm 
 5.6.1 New Project - Git - Custom environment - type (virtual env) - 
+
+6. Git
+6.1 $git status,  git add .  git commit -m "log",  git push
+6.2 need a token, below is how to get a token from github.com
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic
+Verify your email address, if it hasn't been verified yet.
+In the upper-right corner of any page on GitHub, click your profile photo, then click  Settings.
+In the left sidebar, click  Developer settings.
+In the left sidebar, under  Personal access tokens, click Tokens (classic).
+Select Generate new token, then click Generate new token (classic).
+In the "Note" field, give your token a descriptive name.
+To give your token an expiration, select Expiration, then choose a default option or click Custom to enter a date.
+Select the scopes you'd like to grant this token. To use your token to access repositories from the command line, select repo. A token with no assigned scopes can only access public information. For more information, see Scopes for OAuth apps.
+Click Generate token.
+Optionally, to copy the new token to your clipboard, click .
+Screenshot of the "Personal access tokens" page. Next to a blurred-out token, an icon of two overlapping squares is outlined in orange.
+To use your token to access resources owned by an organization that uses SAML single sign-on, authorize the token. For more information, see Authorizing a personal access token for use with SAML single sign-on in the GitHub Enterprise Cloud documentation.
+
+
+
+
+
